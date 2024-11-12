@@ -1,0 +1,33 @@
+.image-container {
+  position: absolute; /* Position relative to the viewport */
+  top: 50%; /* Center vertically */
+  left: 0; /* Align to the left edge */
+  transform: translateY(-50%); /* Center vertically with respect to its own height */
+  width: 800px; /* Increased width for the image container */
+  height: 800px; /* Increased height for the image container */
+  margin: 0; /* Remove any default margin */
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Ensure all images take up the full width of the container */
+  height: 100%; /* Ensure all images take up the full height of the container */
+  opacity: 0;
+  transition: opacity 1s ease-in; /* Smooth fade-in transition */
+}
+
+/* Fade-in effect when the class 'visible' is added */
+.image.visible {
+  opacity: 1;
+}
+
+/* Ensure large logo appears first, circles stack above it */
+.large-logo {
+  z-index: 1;
+}
+
+.circle {
+  z-index: 2; /* Circles appear above the large logo */
+}

@@ -1,0 +1,21 @@
+.home {
+    flex-direction: 0;
+    align-items: left; /* Center vertically */
+    height: 100vh; /* Full viewport height */  
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.image-loader-container {
+    flex-direction: 0;
+    margin: 0; /* No margin */
+}
+
+.navbar {
+    position: absolute; /* Position it absolutely within the home container */
+    top: 0; /* Align to the top */
+ /* Align to the left */
+    right: 0; /* Span across the width */
+    z-index: 2; /* Bring it in front of the loader */
+}
+

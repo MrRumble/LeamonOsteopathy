@@ -14,7 +14,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* Use a linear gradient for the background */
+  background: linear-gradient(to right, #ade8f4, #ffffff); /* Fades from light blue to white */
   min-height: 100vh;
   display: flex;
   flex-direction: column;

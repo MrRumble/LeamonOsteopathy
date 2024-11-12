@@ -1,0 +1,27 @@
+/* src/components/Footer.css */
+
+.footer {
+    background-color: #123c69; /* Dark blue background for the footer */
+    color: white; /* White text */
+    padding: 20px 0; /* Padding for the footer */
+    text-align: center; /* Center the text */
+}
+
+.footer-content {
+    max-width: 800px; /* Set a maximum width for the content */
+    margin: 0 auto; /* Center the footer content */
+}
+
+.social-links {
+    margin-top: 10px; /* Space between text and social links */
+}
+
+.social-links a {
+    color: white; /* White text for links */
+    margin: 0 10px; /* Space between social links */
+    text-decoration: none; /* No underline on links */
+}
+
+.social-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
