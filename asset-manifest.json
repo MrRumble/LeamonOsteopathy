@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/LeamonOsteopathy/static/css/main.ae8148aa.css",
+    "main.js": "/LeamonOsteopathy/static/js/main.d301fa65.js",
+    "static/js/453.d13d6730.chunk.js": "/LeamonOsteopathy/static/js/453.d13d6730.chunk.js",
+    "static/media/large-logo.png": "/LeamonOsteopathy/static/media/large-logo.178f35515379fc16f5c7.png",
+    "static/media/circle3.png": "/LeamonOsteopathy/static/media/circle3.d49f74fe241dd063fd8b.png",
+    "static/media/circle4.png": "/LeamonOsteopathy/static/media/circle4.ca579e54285a51007b05.png",
+    "static/media/circle2.png": "/LeamonOsteopathy/static/media/circle2.e7c3c00c0e29a68af9e3.png",
+    "static/media/circle6.png": "/LeamonOsteopathy/static/media/circle6.08d7350bdde39a8ab4cf.png",
+    "static/media/circle1.png": "/LeamonOsteopathy/static/media/circle1.e7ca386c46d326fb6791.png",
+    "index.html": "/LeamonOsteopathy/index.html",
+    "main.ae8148aa.css.map": "/LeamonOsteopathy/static/css/main.ae8148aa.css.map",
+    "main.d301fa65.js.map": "/LeamonOsteopathy/static/js/main.d301fa65.js.map",
+    "453.d13d6730.chunk.js.map": "/LeamonOsteopathy/static/js/453.d13d6730.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae8148aa.css",
+    "static/js/main.d301fa65.js"
+  ]
+}
