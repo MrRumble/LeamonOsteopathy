@@ -1,0 +1,33 @@
+/* src/components/Logo.css */
+
+/* Default Logo Styles */
+.logo {
+    position: absolute;
+    top: 10px; /* Space from the top */
+    left: 10px; /* Space from the left */
+    height: auto;
+    width: 400px; /* Default size for larger screens */
+    transition: all 0.3s ease-in-out; /* Smooth transition for resizing */
+  }
+  
+  /* Medium Devices (Tablets) */
+  @media (max-width: 1024px) {
+    .logo {
+      width: 70px; /* Slightly smaller on tablets */
+    }
+  }
+  
+  /* Small Devices (Phones) */
+  @media (max-width: 768px) {
+    .logo {
+      width: 200px; /* Smaller on mobile devices */
+    }
+  }
+  
+  /* Extra Small Devices (Small phones) */
+  @media (max-width: 480px) {
+    .logo {
+      width: 200px; /* Even smaller for extra small devices */
+    }
+  }
+  

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import './ImageLoader.css'; // Import the CSS for transitions
-import largeLogo from '../../assets/large-logo.png'; // Adjusted import path
+import './ImageLoader.css';
+import largeLogo from '../../assets/large-logo.png';
 import circle1 from '../../assets/circle1.png';
 import circle2 from '../../assets/circle2.png';
 import circle3 from '../../assets/circle3.png';
@@ -10,19 +10,16 @@ import circle7 from '../../assets/circle7.png';
 import circle8 from '../../assets/circle8.png';
 
 const ImageLoader = () => {
-  // State to control the visibility of each image
   const [visible, setVisible] = useState({
     background: false,
-    circles: Array(8).fill(false), // We have 8 circles in total
+    circles: Array(8).fill(false),
   });
 
   useEffect(() => {
-    // Fade in the background logo first
     setTimeout(() => {
       setVisible((prevState) => ({ ...prevState, background: true }));
-    }, 500); // Delay before showing the background logo
+    }, 500);
 
-    // Fade in the circles one by one
     visible.circles.forEach((_, index) => {
       setTimeout(() => {
         setVisible((prevState) => {
@@ -30,7 +27,7 @@ const ImageLoader = () => {
           newCircles[index] = true;
           return { ...prevState, circles: newCircles };
         });
-      }, 1000 + index * 500); // Delay for each circle
+      }, 1000 + index * 500);
     });
   }, []);
 
