@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/LeamonOsteopathy/static/css/main.b4402e7a.css",
-    "main.js": "/LeamonOsteopathy/static/js/main.3e0f8b7d.js",
+    "main.js": "/LeamonOsteopathy/static/js/main.c73d9adf.js",
     "static/js/453.d13d6730.chunk.js": "/LeamonOsteopathy/static/js/453.d13d6730.chunk.js",
     "static/media/leamonmug1.png": "/LeamonOsteopathy/static/media/leamonmug1.75c0bd826815d7f37b21.png",
     "static/media/heroleamon1.png": "/LeamonOsteopathy/static/media/heroleamon1.71a8cfa0d5eb8755d8ec.png",
     "static/media/logo.png": "/LeamonOsteopathy/static/media/logo.fd275b05598111963a85.png",
     "index.html": "/LeamonOsteopathy/index.html",
     "main.b4402e7a.css.map": "/LeamonOsteopathy/static/css/main.b4402e7a.css.map",
-    "main.3e0f8b7d.js.map": "/LeamonOsteopathy/static/js/main.3e0f8b7d.js.map",
+    "main.c73d9adf.js.map": "/LeamonOsteopathy/static/js/main.c73d9adf.js.map",
     "453.d13d6730.chunk.js.map": "/LeamonOsteopathy/static/js/453.d13d6730.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b4402e7a.css",
-    "static/js/main.3e0f8b7d.js"
+    "static/js/main.c73d9adf.js"
   ]
 }
