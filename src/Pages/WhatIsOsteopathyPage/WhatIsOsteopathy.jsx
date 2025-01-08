@@ -23,7 +23,7 @@ const WhatIsOsteopathy = () => {
                         <p>
                             Osteopathy has been available in the UK for over 100 years. It is a well recognised 
                             discipline accepted by the medical profession and now available to some on the NHS. 
-                            Osteopathy is the manual therapy which aims to help the body return to a state of 
+                            Osteopathy is a manual therapy which aims to help the body return to a state of 
                             optimal health. Patients primarily consult an osteopath with their body expressing 
                             the memory of a previous trauma, be it physical, psychological or a combination of the two.
                         </p>
