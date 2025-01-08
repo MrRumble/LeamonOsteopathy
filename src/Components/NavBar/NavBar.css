@@ -1,4 +1,5 @@
 /* src/components/NavBar/NavBar.css */
+
 .navbar {
     position: absolute;
     top: 0;
@@ -40,7 +41,7 @@
 }
 
 .nav-links a:hover {
-    background-color: #f0f0f0;
+    background-color: teal;
     border-radius: 5px;
 }
 
@@ -92,18 +93,20 @@
         display: flex;
     }
 
+    /* Update the background and font size in mobile view */
     .nav-links {
         display: none;
         flex-direction: column;
         position: absolute;
         top: 100%;
         right: 0;
-        background-color: #ffffff6a;
+        background-color: #ffffff; /* Solid white background */
         padding: 20px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         min-width: 200px;
     }
 
+    /* Activate the dropdown when it's open */
     .nav-links.active {
         display: flex;
     }
@@ -114,9 +117,11 @@
         width: 100%;
     }
 
+    /* Increase text size */
     .nav-links a {
         display: block;
-        padding: 8px 15px;
+        padding: 10px 15px;
+        font-size: 1.2rem; /* Bigger text */
     }
 
     /* Hide phone number on mobile */

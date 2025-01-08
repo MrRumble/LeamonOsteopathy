@@ -118,8 +118,8 @@ const RequestBooking = () => {
             required
           >
             <option value="">Select...</option>
-            <option value="Consultation">Consultation</option>
-            <option value="Therapy Session">Therapy Session</option>
+            <option value="Initial Consultation">Initial Consultation</option>
+            <option value="Follow-up Appointment">Follow-up Appointment</option>
             <option value="General Enquiry">General Enquiry</option>
           </select>
           {formErrors.booking_type && <span className="error">{formErrors.booking_type}</span>}
