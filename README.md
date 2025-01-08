@@ -5,7 +5,7 @@ Welcome to the repository for the **Leamon Osteopathy** website! This project is
 ## Features
 - **Responsive Design**: The website is optimised for both desktop and mobile devices.  
 - **Service Overview**: Detailed descriptions of osteopathic treatments and their benefits.  
-- **Appointment Request**: A user-friendly way for visitors to book appointments.  
+= **Appointment Request**: A user-friendly form integrated with EmailJS API to allow visitors to easily book appointments. The form sends appointment requests directly to the business email without needing a backend, ensuring a seamless user experience.
 - **SEO Friendly**: Utilises meta tags for search engine optimisation and social sharing.  
 
 ## Tech Stack
