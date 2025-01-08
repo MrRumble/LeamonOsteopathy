@@ -3,7 +3,7 @@ import './Home.css';
 import Navbar from '../../Components/NavBar/NavBarComponent';
 import Logo from '../../Components/LogoComponent/Logo';
 import LeamonActionShot from '../../Components/LeamonActionShot/LeamonActionShot';
-import { Link } from 'react-router-dom'; // Import Link
+import { Link } from 'react-router-dom'; 
 
 const HomePage = () => {
     return (

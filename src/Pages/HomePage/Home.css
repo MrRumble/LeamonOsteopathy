@@ -143,12 +143,12 @@
 @media screen and (max-width: 768px) {
     .home {
         padding: 15px;
-        height: 100vh; /* Full viewport height */
+        height: 100vh; 
         position: relative;
         overflow-y: auto;
         display: flex;
         flex-direction: column;
-        justify-content: center; /* Center content vertically */
+        justify-content: center; 
     }
 
     .hero-title {
@@ -185,17 +185,16 @@
     .hero-image {
         height: 35vh;
         margin: 20px auto 0;
-        width: calc(100% - 30px); /* Account for padding */
+        width: calc(100% - 30px); 
     }
 
-    /* Create a content wrapper for better spacing */
     .home-content {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 20px;
-        margin: auto 0; /* Center vertically */
+        margin: auto 0; 
     }
 }
 

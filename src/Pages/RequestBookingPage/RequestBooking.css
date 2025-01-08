@@ -69,13 +69,13 @@
   form select:focus,
   form textarea:focus {
     outline: none;
-    border-color: #00796b; /* This can be replaced with your defined focus color */
+    border-color: #00796b; 
   }
   
   .request-booking p {
     text-align: center;
     margin-bottom: 20px;
-    font-size: 1rem; /* Optional: adds space beneath the paragraph */
+    font-size: 1rem; 
 }
 
 .required {

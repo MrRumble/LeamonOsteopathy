@@ -4,8 +4,7 @@ img {
 }
 
 .App-header {
-  /* Use a linear gradient for the background */
-  background: linear-gradient(to right, #ade8f4, #ffffff); /* Fades from light blue to white */
+  background: linear-gradient(to right, #ade8f4, #ffffff); 
   min-height: 100vh;
   display: flex;
   flex-direction: column;

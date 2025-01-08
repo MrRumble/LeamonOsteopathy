@@ -2,13 +2,13 @@
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif; /* Change to your chosen font */
-  background: linear-gradient(to right, #ade8f4, white); /* Gradient from light blue to white */
-  color: black; /* Set default text color to black */
+  font-family: Arial, Helvetica, sans-serif; 
+  background: linear-gradient(to right, #ade8f4, white); 
+  color: black; 
 } 
 
 .secondary-color {
-  color: #ade8f4; /* Define secondary color */
+  color: #ade8f4;
 }
 
 code {

@@ -15,9 +15,9 @@ const RequestBooking = () => {
     additional_information: '',
   });
 
-  const [formErrors, setFormErrors] = useState({}); // State to manage form errors
+  const [formErrors, setFormErrors] = useState({}); 
 
-  // Handle form field changes
+
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -26,7 +26,6 @@ const RequestBooking = () => {
     });
   };
 
-  // Validate form fields
   const validateForm = () => {
     let errors = {};
     if (!formData.name) errors.name = 'Full name is required.';
@@ -42,11 +41,10 @@ const RequestBooking = () => {
     return Object.keys(errors).length === 0;
   };
 
-  // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
     
-    if (!validateForm()) return; // If validation fails, prevent form submission
+    if (!validateForm()) return; 
 
     // Send email via EmailJS
     emailjs
@@ -125,7 +123,6 @@ const RequestBooking = () => {
           {formErrors.booking_type && <span className="error">{formErrors.booking_type}</span>}
         </div>
 
-        {/* Conditionally render Date and Time fields */}
         {formData.booking_type !== 'General Enquiry' && (
           <>
             <div>
