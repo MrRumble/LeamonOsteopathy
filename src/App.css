@@ -1,3 +1,7 @@
+img {
+  display: block;
+  max-width: 100%;
+}
 
 .App-header {
   /* Use a linear gradient for the background */

@@ -1,0 +1,27 @@
+/* src/components/LeamonActionShot/LeamonActionShot.css */
+.leamon-action-image {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 80vh;
+    max-width: 500px;
+    width: auto;
+    object-fit: cover;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1024px) {
+    .leamon-action-image {
+        height: 70vh;
+        max-width: 400px;
+        opacity: 0.3;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .leamon-action-image {
+        height: 60vh;
+        max-width: 100%;
+        opacity: 0.3;
+    }
+}

@@ -1,27 +1,35 @@
-/* General navbar styles */
+/* src/components/NavBar/NavBar.css */
 .navbar {
-    display: flex;
-    justify-content: space-between; /* Align title/logo on the left and menu on the right */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
     padding: 10px 20px;
-
-
-    position: relative; /* Ensure absolute children are positioned correctly */
-    z-index: 10;
+    z-index: 20;
 }
 
-/* Nav links styles */
+.navbar-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .nav-links {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    display: flex; /* Display links in a row */
-    justify-content: flex-end; /* Align links to the right */
-    flex-grow: 1;  /* Take up the remaining space */
-    align-items: center; /* Center them vertically */
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
 }
 
 .nav-links li {
-    margin: 0 15px; /* Spacing between links */
+    margin: 0 10px;
+    white-space: nowrap;
 }
 
 .nav-links a {
@@ -32,21 +40,38 @@
 }
 
 .nav-links a:hover {
-    background-color: #f0f0f0; /* Slight background on hover */
+    background-color: #f0f0f0;
     border-radius: 5px;
 }
 
-/* Hamburger menu button */
+.phone-number {
+    margin-left: 30px;
+    padding: 8px 15px;
+    border: 2px solid rgb(0, 55, 54);
+    border-radius: 25px;
+}
+
+.phone-number a {
+    color: rgb(0, 66, 79);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.phone-number:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Hamburger menu styles */
 .hamburger-menu {
-    display: none; /* Hidden by default */
+    display: none;
     flex-direction: column;
     justify-content: space-around;
     width: 30px;
     height: 24px;
     cursor: pointer;
-    padding: 5px;
     z-index: 20;
-    margin-left: auto; /* Move the hamburger menu to the right */
 }
 
 .hamburger-menu .bar {
@@ -57,36 +82,49 @@
     transition: all 0.3s ease;
 }
 
-/* Mobile menu styles */
+/* Mobile view styles */
 @media (max-width: 768px) {
+    .navbar-content {
+        justify-content: flex-end;
+    }
+
     .hamburger-menu {
-        display: flex; /* Show hamburger menu on small screens */
-        margin-left: auto; /* Ensure it stays on the right */
+        display: flex;
     }
 
     .nav-links {
-        display: none; /* Hide the links by default */
+        display: none;
         flex-direction: column;
-        justify-content: flex-end; /* Align links to the right */
-        align-items: flex-end; /* Align items to the right horizontally */
-        background-color: #ffffff6a;
         position: absolute;
-        top: 60px;
-        left: 0;
+        top: 100%;
         right: 0;
+        background-color: #ffffff6a;
+        padding: 20px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        min-width: 200px;
     }
 
     .nav-links.active {
-        display: flex; /* Show the menu when active */
+        display: flex;
     }
 
     .nav-links li {
-        margin: 10px 0; /* Space out the items vertically */
+        margin: 10px 0;
+        text-align: right;
+        width: 100%;
+    }
+
+    .nav-links a {
+        display: block;
+        padding: 8px 15px;
+    }
+
+    /* Hide phone number on mobile */
+    .phone-number {
+        display: none;
     }
 }
 
-/* Hamburger menu animation */
 .hamburger-menu.open .bar:nth-child(1) {
     transform: rotate(45deg);
     position: relative;

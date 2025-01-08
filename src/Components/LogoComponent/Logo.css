@@ -1,33 +1,35 @@
 /* src/components/Logo.css */
 
-/* Default Logo Styles */
+/* Default Logo Styles (Desktop) */
 .logo {
-    position: absolute;
-    top: 10px; /* Space from the top */
-    left: 10px; /* Space from the left */
-    height: auto;
-    width: 400px; /* Default size for larger screens */
-    transition: all 0.3s ease-in-out; /* Smooth transition for resizing */
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: auto;
+  width: 400px; /* Default size for larger screens */
+  transition: all 0.3s ease-in-out; /* Smooth transition for resizing */
+}
+
+/* Medium Devices (Tablets) */
+@media (max-width: 1024px) {
+  .logo {
+    width: 25vw; /* Make it a percentage of the viewport width */
+    max-width: 250px; /* Don't exceed a fixed max width */
   }
-  
-  /* Medium Devices (Tablets) */
-  @media (max-width: 1024px) {
-    .logo {
-      width: 70px; /* Slightly smaller on tablets */
-    }
+}
+
+/* Small Devices (Phones) */
+@media (max-width: 768px) {
+  .logo {
+    width: 35vw; /* Adjust to a percentage of the viewport width */
+    max-width: 200px; /* Limit the max size */
   }
-  
-  /* Small Devices (Phones) */
-  @media (max-width: 768px) {
-    .logo {
-      width: 200px; /* Smaller on mobile devices */
-    }
+}
+
+/* Extra Small Devices (Small phones) */
+@media (max-width: 480px) {
+  .logo {
+    width: 45vw; /* Further adjust for smaller screens */
+    max-width: 150px; /* Limit the max size */
   }
-  
-  /* Extra Small Devices (Small phones) */
-  @media (max-width: 480px) {
-    .logo {
-      width: 200px; /* Even smaller for extra small devices */
-    }
-  }
-  
+}

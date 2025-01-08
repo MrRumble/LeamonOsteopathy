@@ -1,0 +1,141 @@
+.biography {
+    min-height: 100vh;
+    padding: clamp(10px, 3vw, 40px);
+    display: flex;
+    flex-direction: column;
+}
+
+.biography-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+.bio-container {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 40px;
+    flex: 1;
+    align-items: center;
+}
+
+.bio-text {
+    color: rgb(23, 68, 81);
+    padding: clamp(1px, 4vw, 40px);
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bio-text h1 {
+    font-size: clamp(2rem, 3vw, 2.5rem);
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: rgb(23, 68, 81);
+}
+
+.bio-text p {
+    font-size: clamp(1rem, 1.2vw, 1.1rem);
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.qualifications {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 2px solid #e0e0e0;
+}
+
+.qualifications h2 {
+    font-size: clamp(1.5rem, 2vw, 1.8rem);
+    margin-bottom: 20px;
+    color: rgb(23, 68, 81);
+}
+
+.qualifications ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.qualifications li {
+    font-size: clamp(0.9rem, 1.1vw, 1rem);
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.qualifications li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #00796b;
+}
+
+.bio-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+}
+
+.portrait-container {
+    width: 100%;
+}
+
+#bio-image {
+    position: sticky;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Tablet Styles */
+@media screen and (max-width: 1024px) {
+    .bio-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .bio-image {
+        position: static;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+    .biography {
+        padding: 15px;
+        padding-top: 50px;
+    }
+
+    .bio-text {
+        padding: 20px;
+    }
+
+    .qualifications {
+        margin-top: 20px;
+        padding-top: 15px;
+    }
+
+    #bio-image {
+        width: 80%;
+        height: auto;
+    }
+}
+
+/* Small Mobile Styles */
+@media screen and (max-width: 480px) {
+    .biography {
+        padding: 10px;
+        padding-top: 50px;
+    }
+
+    .bio-text {
+        padding: 15px;
+    }
+}

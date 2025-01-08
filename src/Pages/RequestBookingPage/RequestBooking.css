@@ -1,0 +1,91 @@
+.request-booking {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    padding-top: 100px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: rgb(23, 68, 81);
+  }
+  
+  form {
+    width: 100%;
+    max-width: 600px;
+    background: #fff;
+    padding: 2rem;
+    color: rgb(23, 68, 81);
+
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  form div {
+    margin-bottom: 1.5rem;
+  }
+  
+  form label {
+    font-size: 1.1rem;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  form input,
+  form select,
+  form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  form textarea {
+    resize: vertical;
+    height: 120px;
+  }
+  
+  button {
+    font-size: 1.1rem;
+    padding: 1rem 1.5rem;
+    border: none;
+    background-color: rgb(23, 68, 81);
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  form input:focus,
+  form select:focus,
+  form textarea:focus {
+    outline: none;
+    border-color: #00796b; /* This can be replaced with your defined focus color */
+  }
+  
+  .request-booking p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1rem; /* Optional: adds space beneath the paragraph */
+}
+
+.required {
+    color: red;
+    margin-left: 5px;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+  
