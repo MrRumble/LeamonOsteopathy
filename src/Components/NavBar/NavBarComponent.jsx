@@ -25,7 +25,7 @@ const Navbar = () => {
                     <li><Link to="/request-appointment" onClick={toggleMenu}>Request an Appointment</Link></li>
                 </ul>
                 <div className="phone-number">
-                    <a href="tel:+447123456789">077976 829979</a>
+                    <a href="tel:+447976829979">07976 829979</a>
                 </div>
             </div>
         </nav>
