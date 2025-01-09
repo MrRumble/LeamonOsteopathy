@@ -23,6 +23,7 @@ const Navbar = () => {
                     <li><Link to="/services" onClick={toggleMenu}>Services</Link></li>
                     <li><Link to="/what-is-osteopathy" onClick={toggleMenu}>What is Osteopathy?</Link></li>
                     <li><Link to="/request-appointment" onClick={toggleMenu}>Request an Appointment</Link></li>
+                    <li><Link to="/opening-times" onClick={toggleMenu}>Opening Times & Prices</Link></li>
                 </ul>
                 <div className="phone-number">
                     <a href="tel:+447976829979">07976 829979</a>
