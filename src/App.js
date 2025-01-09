@@ -10,7 +10,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router basename="/LeamonOsteopathy"> 
+    <Router> 
       <div className="App">
         <header className="App-header">
           <Routes>
