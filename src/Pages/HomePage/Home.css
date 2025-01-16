@@ -5,11 +5,11 @@
     padding: clamp(80px, 3vw, 100px) clamp(20px, 3vw, 40px) clamp(20px, 3vw, 40px);
     align-items: center;
     justify-items: center;
-    height: 100vh;
+    height: auto;
     max-width: 100%;
     margin: 0;
     overflow: hidden;
-    position: fixed;
+    position: relative;
     width: 100%;
     top: 0;
     left: 0;
@@ -80,7 +80,7 @@
 }
 
 .appointment-button:hover {
-    background-color: rgb(33, 78, 91);
+    background-color: rgb(43, 165, 133);
     transform: translateY(-2px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
@@ -91,6 +91,18 @@
     object-fit: cover;
     border-radius: 10px;
 }
+
+.testimonial-carousel-container {
+    position: fixed; /* Fix the carousel at the bottom */
+    bottom: -25px; /* Distance from the bottom of the page */
+    left: 48%; /* Center horizontally */
+    transform: translateX(-50%); /* Align the carousel's center with the center of the page */
+    width:100%; /* Adjust the width as needed */
+    max-width: 700px; /* Set a maximum width for large screens */
+    text-align: center; /* Center-align the content inside */
+    z-index: 10; /* Ensure it appears on top of other elements */
+}
+
 
 /* Tablet Styles */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
@@ -224,4 +236,5 @@
     .hero-image {
         height: 30vh;
     }
+    
 }

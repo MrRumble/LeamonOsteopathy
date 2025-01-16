@@ -1,0 +1,38 @@
+/* Wrapper for the carousel */
+.testimonial-carousel-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    box-sizing: border-box; 
+    padding: 0 15px; 
+}
+
+/* Individual slide styling */
+.testimonial-slide {
+    padding: 20px;
+    margin: 10px auto;
+    word-wrap: break-word;
+    max-width: 90%; 
+    box-sizing: border-box;
+}
+
+/* Feedback text */
+.testimonial-feedback {
+    font-style: italic;
+    font-size: clamp(0.9rem, 4vw, 1rem);
+    margin: 0 auto;
+    color: rgb(23, 68, 81); 
+    word-wrap: break-word;
+    line-height: 1.5; 
+}
+
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .testimonial-slide {
+        padding: 15px;
+        max-width: 100%;
+        margin: 10px auto;
+    }
+}

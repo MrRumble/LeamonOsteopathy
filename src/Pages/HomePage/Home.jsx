@@ -3,6 +3,7 @@ import './Home.css';
 import Navbar from '../../Components/NavBar/NavBarComponent';
 import Logo from '../../Components/LogoComponent/Logo';
 import LeamonActionShot from '../../Components/LeamonActionShot/LeamonActionShot';
+import TestimonialCarousel from '../../Components/TestimonialCarousel/TestimonialCarousel'; 
 import { Link } from 'react-router-dom'; 
 
 const HomePage = () => {
@@ -36,13 +37,17 @@ const HomePage = () => {
                         </Link>
                     </div>
                 </div>
+
+                <div className="image-container">
+                    <LeamonActionShot 
+                        alt="Leamon Osteopathy Action" 
+                        className="hero-image" 
+                    />
+                </div>
             </div>
 
-            <div className="image-container">
-                <LeamonActionShot 
-                    alt="Leamon Osteopathy Action" 
-                    className="hero-image" 
-                />
+            <div className="testimonial-carousel-container">
+                <TestimonialCarousel />
             </div>
         </div>
     );
