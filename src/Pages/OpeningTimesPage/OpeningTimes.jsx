@@ -22,7 +22,7 @@ const OpeningTimesPrices = () => {
                         <h2>Herstmonceux</h2>
                             <ul className="list">
                                 <li className="listItem">Monday: 8.30am - 7.00pm</li>
-                                <li className="listItem">Thursday: 7.00am - 12.00pm</li>
+                                <li className="listItem">Thursday: 8.00am - 7.00pm</li>
                                 <li className="listItem">Friday: 8.30am - 7.00pm</li>
                             </ul>
                         <p>
