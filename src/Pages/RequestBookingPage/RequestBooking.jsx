@@ -17,7 +17,6 @@ const RequestBooking = () => {
 
   const [formErrors, setFormErrors] = useState({}); 
 
-
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -187,6 +186,16 @@ const RequestBooking = () => {
             onChange={handleInputChange}
           />
         </div>
+
+        <p className="cancellation-policy">
+          <em>
+            Cancellation and No-Show Policy:
+            Your appointment time is reserved just for you. A late cancellation or missed visit leaves a gap in the practitioners’ day, which could have been filled by another patient.
+            As such, we require 24 hours notice for any cancellations.
+            Patients who provide less than 24 hours notice, or miss their appointment, may be charged a cancellation fee of 50% of their appointment price.
+            If you need to cancel or reschedule your appointment, please message or call Ben on 07976829979.
+          </em>
+        </p>
 
         <button type="submit">Submit Request</button>
       </form>
