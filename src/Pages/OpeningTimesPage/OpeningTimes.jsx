@@ -27,7 +27,7 @@ const OpeningTimesPrices = () => {
                             <li className="listItem">Friday: 8.30am - 5.00pm</li>
                         </ul>
                         <p>
-                            New Patient: £60 (1hr), Follow Up: £40 (30mins)
+                            New Patient: £55 (45mins), Follow Up: £45 (30mins)
                         </p>
                     </div>
                 </div>
