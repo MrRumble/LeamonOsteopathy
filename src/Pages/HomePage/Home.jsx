@@ -25,7 +25,7 @@ const HomePage = () => {
                     
                     <div className="hero-text">
                         <p>
-                            I'm <strong>Ben Leamon</strong>, the owner of <strong>Leamon Osteopathy</strong>, offering expert Osteopathic treatment and Sports Massage in <strong>Herstmonceux</strong> and <strong>Mayfield</strong>, East Sussex.
+                            I'm <strong>Ben Leamon</strong>, the owner of <strong>Leamon Osteopathy</strong>, offering expert Osteopathic treatment and Sports Massage in <strong>Herstmonceux</strong>, East Sussex.
                         </p>
                     </div>
 
