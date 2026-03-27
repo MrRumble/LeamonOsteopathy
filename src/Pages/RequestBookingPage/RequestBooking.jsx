@@ -45,11 +45,11 @@ const RequestBooking = () => {
     
     if (!validateForm()) return; 
 
-    // Send email via EmailJS
+    // Send email via EmailJS using hardcoded IDs
     emailjs
       .send(
-        process.env.REACT_APP_EMAILJS_SERVICE_ID,  // Service ID from .env
-        process.env.REACT_APP_EMAILJS_TEMPLATE_ID, // Template ID from .env
+        "service_ahgkuwh",  // Your Service ID
+        "template_dab7rhc", // Your Template ID
         {
           name: formData.name,
           booking_type: formData.booking_type,
@@ -59,7 +59,7 @@ const RequestBooking = () => {
           phone_number: formData.phone_number,
           additional_information: formData.additional_information,
         },
-        process.env.REACT_APP_EMAILJS_USER_ID // User ID from .env
+        "9YG13qa6WrNz5YHUv" // Your Public Key
       )
       .then(
         (response) => {
